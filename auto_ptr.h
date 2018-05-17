@@ -121,7 +121,7 @@ public:
 	}
 
 	void reset(_Ty *_Ptr = 0)
-	{	// destroy designated object and store new pointer
+	{/// \destroy designated object and store new pointer
 		if (_Ptr != _Myptr)
 			delete _Myptr;
 		_Myptr = _Ptr;
