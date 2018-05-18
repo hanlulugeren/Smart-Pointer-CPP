@@ -1,5 +1,5 @@
-#ifndef SMARTPTR_MEMBER_H
-#define SMARTPTR_MEMBER_H
+#ifndef SMARTPTR_CLONABLE_H
+#define SMARTPTR_CLONABLE_H
 
 
 /// \brief A pointer which can be copied and cloned
@@ -36,4 +36,4 @@ clonable_ptr<T>& clonable_ptr<T>::operator=(const clonable_ptr<T>& rhs)
 	return *this;
 }
 
-#endif//SMARTPTR_MEMBER_H
+#endif//SMARTPTR_CLONABLE_H
