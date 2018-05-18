@@ -10,7 +10,7 @@
 template <class T> class member_ptr
 {
 public:
-	explicit member_ptr(T *p = NULLPTR) : m_p(p) 
+	explicit member_ptr(T *p = nullptr) : m_p(p) 
 	{
 	}
 
@@ -49,7 +49,7 @@ public:
 	T* release()
 	{
 		T *old_p = m_p;
-		m_p = NULLPTR;
+		m_p = nullptr;
 		return old_p;
 	}
 
