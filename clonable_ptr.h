@@ -14,7 +14,7 @@ public:
 	{
 	}
 
-	clonable_ptr(T *p = NULLPTR) 
+	clonable_ptr(T *p = nullptr) 
 		: member_ptr<T>(p) 
 	{
 	}
