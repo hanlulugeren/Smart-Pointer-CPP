@@ -1,7 +1,7 @@
 #ifndef SMARTPTR_VALUE_H
 #define SMARTPTR_VALUE_H
 
-#include"memeber_ptr.h"
+#include"member_ptr.h"
 
 /// \This smart pointer will create a new object based on another object by using new operator.
 /// \The new object is a copy of another object.
